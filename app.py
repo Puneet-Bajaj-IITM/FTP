@@ -180,4 +180,8 @@ def gpt_vision_prompt(Todo, User_Content):
     whatevr you think is extra use it without specifying extra
     """
     return PROMPT
+    
+if __name__ == "__main__":
+    import uvicorn
 
+    uvicorn.run(app, host="127.0.0.1", port=8000, reload=True)
