@@ -1,5 +1,5 @@
-fastapi
-python-dotenv
-openai
+fastapi==0.68.0
+python-dotenv==0.19.2
+openai==0.28.0
 uvicorn
 jinja2
