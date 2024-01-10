@@ -33,7 +33,6 @@ import os
 load_dotenv()
 
 app = FastAPI()
-app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="templates")
 
 class FTPApp:
